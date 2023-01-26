@@ -3,20 +3,28 @@
 import requests
 import pandas as pd
 from io import StringIO
+#Requête pour obtenir les url des fichiers csv de comptage de vélos disponibles
+url_list = []
+url = requests.get('https://www.donneesquebec.ca/recherche/api/3/action/package_show?id=f170fecc-18db-44bc-b4fe-5b0b6d2c7297').json()
+url = url['result']['resources']
+for i in range(len(url)):
+    url_list.append(url[i]['url'])
 
+#Il y a des erreurs dans l'url des fichiers csv de 2015 et 2016, on les corrige
+for url in url_list:
+    if url[-8:-4] == '0152':
+        url = url.replace(url[-9:], '2015.csv')
+    if url[-8:-4] == '0162':
+        url = url.replace(url[-9:], '2016.csv')
 
-annee_debut = input("Année de début: ")
-annee_fin = input("Année de fin: ")
-liste_annees = []
-liste_str = []
-for annee in range(int(annee_debut), int(annee_fin)+1): liste_annees.append(annee)
-for annee in liste_annees: liste_str.append(str(annee))
+    #On télécharge les fichiers csv et on les nommes selon l'année
+    try:
+        io_velo = StringIO(requests.get(url).text)
+        pd_velo = pd.read_csv(io_velo, sep=',')
+        pd_velo.to_csv('comptage_velo_'+url[-8:], index=False)
+    except Exception:
+        pass
 
-
-for annee in liste_str:
-    io_velo = StringIO(requests.get('https://data.montreal.ca/dataset/f170fecc-18db-44bc-b4fe-5b0b6d2c7297/resource/c7d0546a-a218-479e-bc9f-ce8f13ca972c/download/comptage_velo_'+annee+'.csv').text)
-    pd_velo = pd.read_csv(io_velo, sep=',')
-    pd_velo.to_csv('comptage_velo_'+annee+'.csv', index=False)
 
 
 
