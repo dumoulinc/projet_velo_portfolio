@@ -21,7 +21,7 @@ for url in url_list:
     try:
         io_velo = StringIO(requests.get(url).text)
         pd_velo = pd.read_csv(io_velo, sep=',')
-        pd_velo.to_csv('comptage_velo_'+url[-8:], index=False)
+        pd_velo.to_csv('data/comptage_velo_'+url[-8:], index=False)
     except Exception:
         pass
 
