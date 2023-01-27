@@ -8,14 +8,7 @@ Analyse de l’utilisation des pistes cyclables à Montréal
 
 
 
-
-
-
-![test](/img/1.PNG)
-
-
-
-
+![Carte](/img/1.PNG)
 
 
 
@@ -49,7 +42,7 @@ La page https://www.donneesquebec.ca/recherche/dataset/vmtl-velos-comptage conti
 
 permettent de télécharger les ﬁchiers CSV.
 
-![Page Données Québec](/img/2.png)
+![Page Données Québec](/img/2.PNG)
 
 
 
@@ -81,12 +74,14 @@ Ces incohérences rendent nécessaire un nettoyage et une normalisation des donn
 en faciliter l'analyse et l'interprétation.
 
 
-![Données 2015](https://ibb.co/5KWKKqZ)
+![Données 2015](/img/3.PNG)
+
 Données de 2015. Elles sont quotidiennes et utilisent le nom pour faire référence aux stations de
 
 comptage
 
-![Données 2022](https://ibb.co/JvtFKbk)
+![Données 2022](/img/4.PNG)
+
 Données de 2022. Elles sont regroupées en sections de 15 minutes et utilisent un identiﬁant pour faire
 
 référence aux stations de comptage.
@@ -109,7 +104,7 @@ la période étudiée compilées mensuellement, avec une référence géographiq
 chaque station pour une intégration facile dans un système d'informations géographiques.
 
 
-![Données traitées](https://ibb.co/P6TGbrp)
+![Données traitées](/img/5.PNG)
 
 Les données sont maintenant organisées et prêtes à être visualisées.
 
@@ -135,7 +130,8 @@ mieux comprendre les tendances de circulation et de prendre des décisions écla
 matière de planiﬁcation des infrastructures cyclables.
 
 
-![Données traitées](https://ibb.co/SxmYDGr)
+![Données traitées](/img/6.PNG)
+
 Les histogrammes sont automatiquement produits seulement pour les mois
 
 durant lesquels la station était en opération
@@ -147,7 +143,7 @@ visualisation des données nous permet rapidement de constater la variabilité s
 du nombre de passage de cyclistes
 
 
-![Données traitées](https://ibb.co/ZfbFGc0)
+![Données traitées](/img/7.PNG)
 
 
 Les histogrammes produits ont tous un style commun
