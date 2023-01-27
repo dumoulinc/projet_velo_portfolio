@@ -2,17 +2,13 @@
 
 Projet Portfolio
 
-**Automatisation du processus de création**
+**Automatisation du processus de création d’histogrammes**
 
-**d’histogrammes**
+Analyse de l’utilisation des pistes cyclables à Montréal
+![Carte](https://photos.app.goo.gl/uwtz6xBhGjpPavoB7)
 
-Analyse de l’utilisation des pistes cyclables à
-
-Montréal
 
 **Christophe Dumoulin**
-
-[Code](https://github.com/dumoulinc/projet_velo_portfolio)[ ](https://github.com/dumoulinc/projet_velo_portfolio)[disponible](https://github.com/dumoulinc/projet_velo_portfolio)[ ](https://github.com/dumoulinc/projet_velo_portfolio)[sur](https://github.com/dumoulinc/projet_velo_portfolio)[ ](https://github.com/dumoulinc/projet_velo_portfolio)[Github](https://github.com/dumoulinc/projet_velo_portfolio)
 
 
 
@@ -34,19 +30,18 @@ des données brutes et à produire des visualisations pour une meilleure compré
 
 ces données.
 
+
 **Extraction des données**
 
 Évidemment, la première étape de ce projet est de récupérer les données. Il est important
 
 de s'assurer de pouvoir accéder à l'ensemble des données disponibles.
 
-La page <https://www.donneesquebec.ca/recherche/dataset/vmtl-velos-comptage>[ ](https://www.donneesquebec.ca/recherche/dataset/vmtl-velos-comptage)contient les liens qui
+La page https://www.donneesquebec.ca/recherche/dataset/vmtl-velos-comptage contient les liens qui
 
 permettent de télécharger les ﬁchiers CSV.
 
-2
-
-
+![Page Données Québec](https://photos.app.goo.gl/9Gz6PrRRyBqHyJ4d7)
 
 
 
@@ -57,6 +52,7 @@ correspondant. Si la structure du site reste inchangée, le même script pourra 
 pour extraire les données des années suivantes sans modiﬁcation. Les données sont alors
 
 sauvegardées et prêtes à être traitées.
+
 
 **Nettoyage des données**
 
@@ -76,19 +72,17 @@ Ces incohérences rendent nécessaire un nettoyage et une normalisation des donn
 
 en faciliter l'analyse et l'interprétation.
 
+
+![Données 2015](https://photos.app.goo.gl/CTongn6kt8taMyeT8)
 Données de 2015. Elles sont quotidiennes et utilisent le nom pour faire référence aux stations de
 
 comptage
 
-3
-
-
-
-
-
+![Données 2022](https://photos.app.goo.gl/z5Q11iM9CKxAjLWE9)
 Données de 2022. Elles sont regroupées en sections de 15 minutes et utilisent un identiﬁant pour faire
 
 référence aux stations de comptage.
+
 
 Pour standardiser et nettoyer les données de comptage de cyclistes, il est nécessaire
 
@@ -106,11 +100,8 @@ la période étudiée compilées mensuellement, avec une référence géographiq
 
 chaque station pour une intégration facile dans un système d'informations géographiques.
 
-4
 
-
-
-
+![Données traitées](https://photos.app.goo.gl/f6PjFs1R9dZuG38x7)
 
 Les données sont maintenant organisées et prêtes à être visualisées.
 
@@ -121,6 +112,7 @@ qui pourront plus facilement être cartographiées. La structure actuelle est id
 produire des histogrammes pour visualiser le compte mensuel de vélos à chacune des
 
 stations.
+
 
 **Production des histogrammes**
 
@@ -134,12 +126,8 @@ mieux comprendre les tendances de circulation et de prendre des décisions écla
 
 matière de planiﬁcation des infrastructures cyclables.
 
-5
 
-
-
-
-
+![Données traitées](https://photos.app.goo.gl/vqp4QDUkUNEUUqXdA)
 Les histogrammes sont automatiquement produits seulement pour les mois
 
 durant lesquels la station était en opération
@@ -150,10 +138,8 @@ visualisation des données nous permet rapidement de constater la variabilité s
 
 du nombre de passage de cyclistes
 
-6
 
-
-
+![Données traitées](https://photos.app.goo.gl/YbehgvX1G3gtWCrZA)
 
 
 Les histogrammes produits ont tous un style commun
@@ -172,12 +158,6 @@ permettant ainsi une meilleure prise de décision. Les images incluses dans ce r
 
 illustrent les résultats obtenus grâce à cette automatisation, et il est évident que les
 
-7
-
-
-
-
-
 organisations qui intègrent de telles méthodes dans leur fonctionnement quotidien
 
 bénéﬁcieront d'une amélioration signiﬁcative de leur performance. Il est donc fortement
@@ -186,5 +166,5 @@ recommandé aux employeurs de considérer ces résultats et d'envisager d'intég
 
 processus d'automatisation similaires dans leur propre organisation.
 
-8
+
 
