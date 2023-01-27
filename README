@@ -10,8 +10,7 @@ Analyse de l’utilisation des pistes cyclables à Montréal
 
 **Christophe Dumoulin**
 
-
-
+https://ibb.co/TMGMhjK
 
 
 **Introduction**
@@ -41,7 +40,7 @@ La page https://www.donneesquebec.ca/recherche/dataset/vmtl-velos-comptage conti
 
 permettent de télécharger les ﬁchiers CSV.
 
-![Page Données Québec](https://photos.app.goo.gl/9Gz6PrRRyBqHyJ4d7)
+![Page Données Québec](https://ibb.co/Ny870Z1)
 
 
 
@@ -73,12 +72,12 @@ Ces incohérences rendent nécessaire un nettoyage et une normalisation des donn
 en faciliter l'analyse et l'interprétation.
 
 
-![Données 2015](https://photos.app.goo.gl/CTongn6kt8taMyeT8)
+![Données 2015](https://ibb.co/5KWKKqZ)
 Données de 2015. Elles sont quotidiennes et utilisent le nom pour faire référence aux stations de
 
 comptage
 
-![Données 2022](https://photos.app.goo.gl/z5Q11iM9CKxAjLWE9)
+![Données 2022](https://ibb.co/JvtFKbk)
 Données de 2022. Elles sont regroupées en sections de 15 minutes et utilisent un identiﬁant pour faire
 
 référence aux stations de comptage.
@@ -101,7 +100,7 @@ la période étudiée compilées mensuellement, avec une référence géographiq
 chaque station pour une intégration facile dans un système d'informations géographiques.
 
 
-![Données traitées](https://photos.app.goo.gl/f6PjFs1R9dZuG38x7)
+![Données traitées](https://ibb.co/P6TGbrp)
 
 Les données sont maintenant organisées et prêtes à être visualisées.
 
@@ -127,7 +126,7 @@ mieux comprendre les tendances de circulation et de prendre des décisions écla
 matière de planiﬁcation des infrastructures cyclables.
 
 
-![Données traitées](https://photos.app.goo.gl/vqp4QDUkUNEUUqXdA)
+![Données traitées](https://ibb.co/SxmYDGr)
 Les histogrammes sont automatiquement produits seulement pour les mois
 
 durant lesquels la station était en opération
@@ -139,7 +138,7 @@ visualisation des données nous permet rapidement de constater la variabilité s
 du nombre de passage de cyclistes
 
 
-![Données traitées](https://photos.app.goo.gl/YbehgvX1G3gtWCrZA)
+![Données traitées](https://ibb.co/ZfbFGc0)
 
 
 Les histogrammes produits ont tous un style commun
